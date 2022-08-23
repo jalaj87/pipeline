@@ -17,9 +17,9 @@ export default function App() {
           <Col sm={10}>
           <Form.Select aria-label="lob">
                 <option>Choose LOB</option>
-                <option value="Claim">Claim</option>
-                <option value="PI">PI</option>
-                <option value="BI">BI</option>
+                <option value="CorpTech">Corporate Technology</option>
+                <option value="Invest">Investment</option>
+                <option value="ClientProspecting">Client Prospecting</option>
           </Form.Select>
           </Col>
         </Form.Group>
@@ -28,9 +28,9 @@ export default function App() {
           <Col sm={10}>
           <Form.Select>
                 <option>Choose Value Stream/Portfolio</option>
-                <option value="TVS">TVS</option>
-                <option value="PVS">PVS</option>
-                <option value="VS">VS</option>
+                <option value="CorpTech">Corporate Technology</option>
+                <option value="Invest">Investment</option>
+                <option value="ClientProspecting">Client Prospecting</option>
           </Form.Select>
           </Col>
         </Form.Group>
